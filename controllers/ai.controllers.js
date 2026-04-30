@@ -18,6 +18,7 @@ User Data:
 ${JSON.stringify(sampleData, null, 2)}
 `;
         console.log("Process start")
+        console.log("Passed data", model, prompt,process.env.OLLAMA_URL)
     const response = await axios.post(process.env.OLLAMA_URL, {
         model: model,
         prompt: prompt,
