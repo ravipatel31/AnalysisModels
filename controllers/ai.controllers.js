@@ -26,6 +26,8 @@ ${JSON.stringify(sampleData, null, 2)}
   return ollamaQueue.add(async () => {
     console.log("Process start");
     console.log("Passed data", model, process.env.OLLAMA_URL);
+    console.log("Payload System Propmt", systemPrompt)
+    console.log("Payload Sample Data", sampleData)
     console.log("Ollama request started", new Date().toISOString());
 
     const response = await axios.post(
