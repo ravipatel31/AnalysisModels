@@ -1,0 +1,36 @@
+"sampleData": {
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 57510,
+        "title": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+        "value": "I arrived at the venue on Friday lunchtime, finding an inviting, modern, and clean property..."
+      },
+      {
+        "reportOverviewId": 57511,
+        "title": "RESTROOMS",
+        "value": "I inspected the female restrooms and found them to be in excellent overall condition..."
+      }
+    ],
+    "qaCandidates": [
+      {
+        "reportDtlId": 822233,
+        "questionLabel": "Please check the website and check that all information is up to date. Please state if there is anything you see that is incorrect?",
+        "qType": "R",
+        "value": "All",
+        "comment": "Both platforms had vibrant and current content.",
+        "commentAllowed": true,
+        "score": 10,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 822234,
+        "questionLabel": "Please check all bathrooms and promotional posters. Are they in good condition and up to date?",
+        "qType": "T",
+        "value": "The female restrooms had the Joker Poker and $15 Steak special promotion posters...",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      }
+    ]
+  }
+}
