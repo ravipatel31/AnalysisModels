@@ -5,13 +5,6 @@
 }
 
 
-{
-    "success": false,
-    "message": "Cannot destructure property 'systemPrompt' of 'req.body' as it is undefined."
-}
-
-
-
 # FBG Output: 
 
 {
@@ -66,3 +59,37 @@ Time out output for FBG payload
     "message": "timeout of 240000ms exceeded"
 }
 
+
+
+# Speling mistecks score detect :
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564163,
+            "questionId": "7511",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB? If the score is below 100 please explain in detail and take photos",
+            "score": "0",
+            "maxScore": "100",
+            "issue": "Response does not align with the score",
+            "description": "The response states that there was a current post on both platforms advertising live music entertainment, but the score is 0. There should be an explanation for why it received no points."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 564167,
+            "questionId": "7646",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Please either make a booking online or call the venue. How was your experince? Please give details",
+            "score": "0",
+            "maxScore": "100",
+            "issue": "Response does not align with the score",
+            "description": "The response states that making an online booking was simple and there was immediate confirmation, but the score is 0. There should be an explanation for why it received no points."
+        }
+    ]
+}
