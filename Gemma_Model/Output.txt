@@ -103,3 +103,32 @@ Version : G005
         }
     ]
 }
+
+Version : G006
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "reportOverviewId": 24187,
+            "reportOverviewTitle": "GAMING",
+            "issues": [
+                {
+                    "severity": "LOW",
+                    "issue": "Grammar error",
+                    "description": "The staff was behaving very rude with the guest. The music were too loud and peoples was not comfortable to sit there."
+                },
+                {
+                    "severity": "LOW",
+                    "issue": "Sentence Structure",
+                    "description": "The sentence is awkward: 'The staff was behaving very rude with the guest. The music were too loud and peoples was not comfortable to sit there.' It can be rephrased for better clarity."
+                },
+                {
+                    "severity": "LOW",
+                    "issue": "Grammar error",
+                    "description": "Overall services is very poor and they needs to improve there management."
+                }
+            ]
+        }
+    ]
+}
