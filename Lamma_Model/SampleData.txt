@@ -1,0 +1,41 @@
+Version No : G001
+{
+  "systemPrompt": "You are a professional mystery shopping QA reviewer evaluating a mystery shop report for a {food bar and gaming} venue.\n\nYour role is to perform strict QA auditing on scored questions and editorial review on report summaries. You must enforce logical scoring consistency, ensure factual experience-based reporting, maintain strict traceability, and produce deterministic results that remain identical across re-reviews of unchanged content.\n\nYou will receive the following JSON object:\n\nThis payload contains:\n• reportOverviewSummary[] - narrative summary sections\n• questions[] - each with fields including: questionId, questionLabel, qType, score, maxScore, response, commentAllowed\n\n================================\nREPORT OVERVIEW SUMMARY REVIEW\n================================\n\n• Grammer - spelling - sentence formation\n\n================================\nQUESTION REVIEW PROCESS\n================================\n\nFor each question in the questions array, follow this evaluation order:\nFor each question, if it's a radio type without comments, assume the score is auto-generated and don't expect or evaluate explanations—only flag if the response clearly contradicts the score.\n\nValidate scores by ensuring positive responses match high scores and negative responses match low scores; only flag clear conflicts. If comments are allowed, they must align with the score, otherwise ignore missing comments.\n\n================================\nOUTPUT FORMAT\n================================\n\nReturn ONLY JSON:\n\n{\n  \"issues\": []\n}\n\nOR with issues:\n\n{\n  \"issues\": [\n    {\n      \"severity\": \"LOW | MODERATE | CRITICAL\",\n      \"reportDtlId\": 12345,\n      \"questionId\": \"Exact match questionId\",\n      \"reportOverviewId\": null,\n      \"reportOverviewTitle\": null,\n      \"questionLabel\": \"Exact question label\",\n      \"score\": \"Exact match score\",\n      \"maxScore\": \"Exact match maxScore\",\n      \"issue\": \"Short issue summary\",\n      \"description\": \"Objective explanation\"\n    }\n  ]\n}\n\nYour final output must be STRICTLY valid JSON.",
+  "sampleData": {
+    "reportOverviewSummary": [
+      {
+        "reportOverviewId": 24187,
+        "title": "GAMING",
+        "value": "There were 15 players on arrival and 10 players on departure in the gaming room.  There were empty glasses, coffee cups and full ashtrays when I arrived, which were only partly cleaned by the time I was leaving.  GAM was wiping down the machines when I arrived.  GAM was well presented in her uniform and was friendly and smiling. I wasn't offered a drink for more than 10 minutes, and there were no service buttons. I asked GAM for a soda water with lime when she walked past, which was delivered on a tray without snacks.  The complimentary hot food was a slice of pizza served on a cardboard plate with a serviette, which was brought around by GAM.  There were spring rolls in a pie warmer. There were snacks and lollies on a table near the bar, along with bottles of water and self-serve juice in a bar fridge."
+      },
+      {
+        "reportOverviewId": 24188,
+        "title": "RESTROOMS",
+        "value": "The female toilets near the gaming room had papers on top of the bin and in the cubicles upon arrival, yet had been cleaned upon departure. The downstairs female toilets had paper on the ground and water on the vanity upon departure, with no toilet paper in one cubicle and one toilet roll off the holder and on the ground in another."
+      }
+    ],
+    "qaCandidates": [
+        {
+        "reportDtlId": 564163,
+        "questionId": 7511,
+        "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB? If the 'score' is below 100 please explain in detail and take photos",
+        "qType": "R",
+        "value": "All",
+        "comment": "Same current post on both platforms advertising live music entertainment on 30th August, with accompanying photo of the musicians.",
+        "commentAllowed": true,
+        "score": 100,
+        "maxScore": 100
+      },
+      {
+        "reportDtlId": 564164,
+        "questionId": 14620,
+        "questionLabel": "When ordering at the bar or bistro did the staff member ask if you were a member and if not did they explain cleary on how to become a member?",
+        "qType": "T",
+        "value": "I was asked at both the bistro and bar if I was a member, and BAR explained how to join. ",
+        "commentAllowed": false,
+        "score": 100,
+        "maxScore": 100
+      }
+    ]
+  }
+}
