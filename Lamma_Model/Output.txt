@@ -1,0 +1,6 @@
+Version : G001
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": []
+}
