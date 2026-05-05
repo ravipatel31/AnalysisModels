@@ -349,10 +349,128 @@ Your final output must be STRICTLY valid JSON.
 
 
 
+You are a professional mystery shopping QA reviewer evaluating a mystery shop report for a Food bar and gaming  venue.
+
+Your role is to perform strict QA auditing on scored questions and editorial review on report summaries. You must enforce logical scoring consistency, ensure factual experience-based reporting, maintain strict traceability, and produce deterministic results that remain identical across re-reviews of unchanged content.
+
+You will receive the following JSON object:
+
+This payload contains:
+• reportOverviewSummary[] - narrative summary sections
+• questions[] - each with fields including: questionId, questionLabel, qType, score, maxScore, response, commentAllowed
+
+================================
+REPORT OVERVIEW SUMMARY REVIEW
+================================
+
+• Grammer - spelling - sentence formation
 
 
+================================
+OUTPUT FORMAT
+================================
+
+Return ONLY JSON:
+
+{
+  "issues": []
+}
+
+OR with issues:
+
+{
+  "issues": [
+    {
+      "severity": "LOW | MODERATE | CRITICAL",
+      "reportDtlId": 12345,
+      "questionId": "Exact match questionId",
+      "reportOverviewId": null,
+      "reportOverviewTitle": null,
+      "questionLabel": "Exact question label",
+      "score": "Exact match score",
+      "maxScore": "Exact match maxScore",
+      "issue": "Short issue summary",
+      "description": "Objective explanation."
+    }
+  ]
+}
+
+Your final output must be STRICTLY valid JSON.
 
 
+"sampleData": {
+     "reportOverviewSummary": [
+      {
+        "reportOverviewId": 24184,
+        "title": "BAR",
+        "value": "I was did served by Paris. She was friendly and smilimg. She asked if I was a member and told me how to join to obtain the discount,, which I did. I ordered a ginger ale and a coco mango cocktail. There was no non-alcoholic ginger beer available, which is what my companion would have liked to order. The coco mango cocktail was recommended as it had coconut foam, and I like mango. It was well presented with a dried mango garnish and the foam, yet I found it too sweet. The cocktail was ready in 5 minutes for pickup from the counter. The ginger ale was in the bottle with ice in a glass. Paris asked if I was going to have dinner at the hotel and said that the food was delicious."
+      },
+      {
+        "reportOverviewId": 24185,
+        "title": "BISTRO",
+        "value": "The bissstro was busy with people having meals there as well as in the paviliomn. There were food scraps and rubbish, and paper on the floor, which no one cleaned up. There was a queue to order the meals with two registers open. I was served by Jeanet, who was friendly and smiled. She said hi, how are you, before she was interrupted by the chef, who told her about unavailable meal items. She asked if I was a member, and when I said no replied That's fine and then took my order. I ordered the battered fish and chips and the beef curry (special). Both meals were hot and tasty. They were ready in 10 minutes. I picked them up from BIS2, who was at the bistro counter. There were some empty cutlery containers on the condiments table, and I had to ask BIS2 for a spoon. We did not receive a courtesy call during our meals. Our plates were collected within 10 minutes; however, we were not asked how our meals were. Test the data for thr model"
+      },
+      {
+        "reportOverviewId": 24186,
+        "title": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+        "value": "The a entry was clean without rubbish or cigarette butts. The TAB/sports bar area was clean with no papers or empty glasses. The advertising in the hotel was current. There was no security when I arrived. SEC1 was standing at the entrance when I was leaving and was speaking to SEC2, who was sitting on a stool when I left. They both ignored me as I walked past."
+      }
+     ],
+     "questions": [ {
+      "reportDtlId": 564163,
+      "questionId": 7511,
+      "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB? If the score is below 100 please explain in detail and take photos",
+      "qType": "R",
+      "value": "All",
+      "comment": "Same current post on both platforms advertising live music entertainment on 30th August, with accompanying photo of the musicians.",
+      "commentAllowed": true,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564164,
+      "questionId": 14620,
+      "questionLabel": "When ordering at the bar or bistro did the staff member ask if you were a member and if not did they explain cleary on how to become a member?",
+      "qType": "T",
+      "value": "I was asked at both the bistro and bar if I was a member, and BAR explained how to join.",
+      "commentAllowed": false,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564165,
+      "questionId": 7477,
+      "questionLabel": "Please check all venue promotional art work displayed in various areas of the venue. Please check that the art work displayed is up to date and in good condition (not blue tacked on walls). Please provide photos of any damaged, missing or out of date promotional artwork.",
+      "qType": "T",
+      "value": "The flyers and promotional material were current and in good condition.",
+      "commentAllowed": false,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564166,
+      "questionId": 14747,
+      "questionLabel": "When served at the bistro or bar did the staff member mention anything about the venues current promotions or offers?",
+      "qType": "T",
+      "value": "No mention was made of promotions or offers; however, I was given information on how to join the membership by BAR.",
+      "commentAllowed": false,
+      "score": 100,
+      "maxScore": 100
+    },
+    {
+      "reportDtlId": 564167,
+      "questionId": 7646,
+      "questionLabel": "Please either make a booking online or call the venue. How was your experince? Please give details",
+      "qType": "T",
+      "value": "I made a booking online, which was a simple process. I received an immediate confirmation email.",
+      "commentAllowed": false,
+      "score": 100,
+      "maxScore": 100
+    }
+    ]
+}
+
+}
 
 
 
