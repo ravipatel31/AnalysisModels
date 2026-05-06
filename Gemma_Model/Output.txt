@@ -132,3 +132,43 @@ Version : G006
         }
     ]
 }
+
+Version : G007
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "reportOverviewId": 24187,
+            "reportOverviewTitle": "GAMING",
+            "issues": [
+                {
+                    "sentence": "There is many customer in the venue and staff was behaving very rude with guest.",
+                    "issue": "Rude behavior of staff towards guests"
+                },
+                {
+                    "sentence": "The music were too loud and peoples was not comfortable to sit there.",
+                    "issue": "Music level too high/uncomfortable seating"
+                },
+                {
+                    "sentence": "One of the waiter come late and not respond properly when asked for menu.",
+                    "issue": "Delayed service, unattentive staff"
+                },
+                {
+                    "sentence": "Table was dirty and have stain which looks very bad.",
+                    "issue": "Dirty table with stains"
+                }
+            ]
+        },
+        {
+            "reportOverviewId": 24188,
+            "reportOverviewTitle": "RESTROOMS",
+            "issues": [
+                {
+                    "sentence": "Lorem ipsum dolor  whhhh sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "issue": "Excessive filler words - Lorem ipsum"
+                }
+            ]
+        }
+    ]
+}
