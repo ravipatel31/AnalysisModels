@@ -214,3 +214,41 @@ Dublicate issue in gaming payload:
         }
     ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 24132,
+            "questionId": null,
+            "reportOverviewId": 24132,
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "issue": "Duplicate content detected.",
+            "description": "The text describing street parking is repeated multiple times."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 24135,
+            "questionId": null,
+            "reportOverviewId": 24135,
+            "reportOverviewTitle": "RESTROOMS",
+            "issue": "Minor grammar error.",
+            "description": "Sentence structure could be improved for clarity: 'There was a sign on the door which stated that the lock was broken.' Suggestion: 'A sign on the door indicated that the lock was broken.'"
+        }
+    ]
+}
