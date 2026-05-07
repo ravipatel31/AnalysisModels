@@ -203,3 +203,11 @@ Version : G008
         }
     ]
 }
+
+Version : G010
+
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": []
+}
