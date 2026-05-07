@@ -287,3 +287,16 @@ Dublicate issue in gaming payload:
         }
     ]
 }
+
+
+
+
+Retail output
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": []
+}
