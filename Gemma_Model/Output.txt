@@ -401,3 +401,84 @@ Version : G014
         }
     ]
 }
+
+Version : G016
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "type": "summary_vs_question_contradiction",
+            "reason": "Report overview summary describes positive service and venue conditions, while multiple question responses report negative experiences, poor service, outdated promotions, and damaged venue materials.",
+            "questionId": "7477",
+            "questionLabel": "Please check all venue promotional artwork displayed in various areas of the venue. Please check that the artwork displayed is up to date and in good condition.",
+            "reportDtlId": "564165",
+            "qaCandidates": [
+                {
+                    "comment": "Several promotional posters were damaged, outdated, and attached poorly to walls using tape.",
+                    "score": "30",
+                    "maxScore": "100"
+                }
+            ],
+            "contradictedSummary": {
+                "reportOverviewId": "24188",
+                "title": "BISTRO",
+                "value": "The dining area was tidy, service was fast, and staff were professional and welcoming."
+            }
+        },
+        {
+            "type": "score_misalignment",
+            "reason": "Score is 25 for 'Social media promotions were outdated and inconsistent with venue advertising' but answer does not fully address the question. Answer lacks detail regarding specific issues.",
+            "questionId": "7511",
+            "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB? If the 'score' is below 100 please explain in detail and take photos",
+            "reportDtlId": "564163",
+            "qaCandidates": [
+                {
+                    "comment": "Social media promotions were outdated and inconsistent with venue advertising.",
+                    "score": "25",
+                    "maxScore": "100"
+                }
+            ],
+            "issueMetadata": {
+                "questionId": "7511",
+                "questionLabel": "Please check Instagram and FB, are the venues promotions current and are any of the promotions in the venue reflected on Instagram and FB? If the 'score' is below 100 please explain in detail and take photos"
+            }
+        },
+        {
+            "type": "generic_reused_content",
+            "reason": "Answer could be more detailed to provide specific evidence of issues. Answer repeats generic complaints without additional context.",
+            "questionId": "14620",
+            "questionLabel": "When ordering at the bar or bistro did the staff member ask if you were a member and if not did they explain clearly on how to become a member?",
+            "reportDtlId": "564164",
+            "qaCandidates": [
+                {
+                    "comment": "The staff member did not ask about membership and did not explain how to become a member.",
+                    "score": "20",
+                    "maxScore": "100"
+                }
+            ],
+            "issueMetadata": {
+                "questionId": "14620",
+                "questionLabel": "When ordering at the bar or bistro did the staff member ask if you were a member and if not did they explain clearly on how to become a member?"
+            }
+        },
+        {
+            "type": "copy_paste_content",
+            "reason": "Answer lacks specific detail. Answer could be more detailed with specific complaints or issues. This is a potential for plagiarism.",
+            "questionId": "7646",
+            "questionLabel": "Please either make a booking online or call the venue. How was your experience? Please give details",
+            "reportDtlId": "564167",
+            "qaCandidates": [
+                {
+                    "comment": "The booking process was frustrating. Staff were rude on the phone and the reservation confirmation was delayed.",
+                    "score": "15",
+                    "maxScore": "100"
+                }
+            ],
+            "issueMetadata": {
+                "questionId": "7646",
+                "questionLabel": "Please either make a booking online or call the venue. How was your experience? Please give details"
+            }
+        }
+    ]
+}
