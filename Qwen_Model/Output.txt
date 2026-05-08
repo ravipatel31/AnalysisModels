@@ -320,3 +320,40 @@ Retail output
     "success": false,
     "message": "timeout of 300000ms exceeded"
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 795723,
+            "questionId": "30463",
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "What was the condition of the front counter area?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Unrealistic or unsupported claim.",
+            "description": "The report mentions 'tore on Thursday afternoon' multiple times, which is inconsistent with other parts and appears to be a typographical error."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795726,
+            "questionId": "20520",
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "How was the cardboard rubbish from deliveries managed?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Unrealistic or unsupported claim.",
+            "description": "The response states 'Neatly stacked away from walkways' but there is no mention of cardboard rubbish in the overview summary."
+        }
+    ]
+}
