@@ -455,3 +455,39 @@ Retail output
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795724,
+            "questionId": 20646,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+            "score": 900,
+            "maxScore": 100,
+            "issue": "Excessive score",
+            "description": "The score provided is outside the valid range (0-100)."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 795725,
+            "questionId": 20151,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "How clean and organised was the store interior?",
+            "score": 10,
+            "maxScore": 100,
+            "issue": "Low score",
+            "description": "The score provided is unusually low. The description suggests a highly clean environment."
+        }
+    ]
+}
