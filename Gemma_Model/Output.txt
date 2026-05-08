@@ -594,3 +594,25 @@ Version : G103
         }
     ]
 }
+
+Version : G104
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "type": "placeholder_text",
+            "reportOverviewId": "24132",
+            "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+            "sentence": "The exterior area were dirty and the entrance have many rubbish near the door.",
+            "message": "Placeholder or dummy text detected in report overview"
+        },
+        {
+            "type": "placeholder_text",
+            "reportOverviewId": "24133",
+            "reportOverviewTitle": "GAMING",
+            "sentence": "The gaming room was very noisy and machines was not cleaned properly. One customer were complaining about the payout machine and no staff respond quickly.",
+            "message": "Placeholder or dummy text detected in report overview"
+        }
+    ]
+}
