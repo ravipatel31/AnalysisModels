@@ -434,3 +434,24 @@ Retail output
         }
     ]
 }
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 53815,
+            "questionId": "Exact match questionId",
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "Shoppers experience and observations within the store",
+            "score": "4",
+            "maxScore": "5",
+            "issue": "Duplicate wording",
+            "description": "The phrase 'tonight,tonight,tonight,tonight' is repeated multiple times unnecessarily."
+        }
+    ]
+}
