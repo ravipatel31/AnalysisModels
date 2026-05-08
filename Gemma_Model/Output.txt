@@ -494,3 +494,10 @@ Version : G101
     "model": "gemma2:2b",
     "issues": []
 }
+
+Version : G102
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": []
+}
