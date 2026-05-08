@@ -377,3 +377,37 @@ Retail output
         }
     ]
 }
+
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 795724,
+            "questionId": 20646,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Vague or non-experience-based response.",
+            "description": "The response does not provide a specific rating but instead expresses a general dislike, which is not aligned with a score of 100."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 795726,
+            "questionId": 20520,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "How was the cardboard rubbish from deliveries managed?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Timeline inconsistency.",
+            "description": "The response mentions 'walkways', but there is no mention of walkways in the report summary, which may be inconsistent."
+        }
+    ]
+}
