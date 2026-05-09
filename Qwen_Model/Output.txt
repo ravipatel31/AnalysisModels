@@ -697,3 +697,60 @@ Retail output
         }
     ]
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182712,
+            "questionId": 6334,
+            "reportOverviewTitle": null,
+            "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Low score mismatch",
+            "description": "The response indicates mostly clean, tidy, and well-lit with clear access, which should warrant a higher score."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182714,
+            "questionId": 1208,
+            "reportOverviewTitle": null,
+            "questionLabel": "As you walk into the store, do you find it inviting?",
+            "score": 2,
+            "maxScore": 2,
+            "issue": "Score matches response",
+            "description": "The response and score are consistent."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182715,
+            "questionId": 6986,
+            "reportOverviewTitle": null,
+            "questionLabel": "Looking around the store aisles, do you find this store easily accessible? Is it free from boxes and clutter?",
+            "score": 3,
+            "maxScore": 3,
+            "issue": "High score matches response",
+            "description": "The response indicates clear aisles and lack of clutter, which aligns with the full score."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182716,
+            "questionId": 10060,
+            "reportOverviewTitle": null,
+            "questionLabel": "Was the pricing/ticketing clear and easy to read on shelf labels and shelf talkers?",
+            "score": 3,
+            "maxScore": 3,
+            "issue": "High score matches response",
+            "description": "The response indicates clearly readable pricing, which aligns with the full score."
+        }
+    ]
+}
