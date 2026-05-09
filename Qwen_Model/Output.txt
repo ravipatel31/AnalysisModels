@@ -638,3 +638,62 @@ Retail output
         }
     ]
 }
+
+
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182712,
+            "questionId": "6334",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Vague response",
+            "description": "The response 'There was some dihgggghgrt on the window, but otherwise, it appeared very tidy.' is vague and contains non-English words."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182714,
+            "questionId": "1208",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "As you walk into the store, do you find it inviting?",
+            "score": 2,
+            "maxScore": 2,
+            "issue": "Contradictory to positive score",
+            "description": "The response 'Yes' contradicts the score of 2 out of 2."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182715,
+            "questionId": "6986",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Looking around the store aisles, do you find this store easily accessible? Is it free from boxes and clutter?",
+            "score": 3,
+            "maxScore": 3,
+            "issue": "Unnecessary score",
+            "description": "The score is equal to maxScore, which may not be warranted given the positive nature of the response."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182716,
+            "questionId": "10060",
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Was the pricing/ticketing clear and easy to read on shelf labels and shelf talkers?",
+            "score": 3,
+            "maxScore": 3,
+            "issue": "Unnecessary score",
+            "description": "The score is equal to maxScore, which may not be warranted given the positive nature of the response."
+        }
+    ]
+}
