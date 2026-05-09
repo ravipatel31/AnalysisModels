@@ -23,3 +23,33 @@
                 "issue": "Grammar error - 'have been arriveding'",
                 "description": "The SERVICE summary opens with 'When we have been arriveding we were in a small line' which contains a grammatical error. This should be corrected to 'When we arrived, we were in a small line'."
             },
+
+
+
+
+
+
+         {
+                "severity": "LOW",
+                "reportDtlId": 51990,
+                "questionId": null,
+                "reportOverviewId": 51990,
+                "reportOverviewTitle": "VENUE OVERVIEW",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Duplicate paragraph repeated four times",
+                "description": "The entire paragraph 'The venue had a great vibe when we arrived. The entrance was well-lit, there was good music playing, and it was not too loud.' is copy-pasted four consecutive times. This appears to be an editorial error and should be reduced to a single instance."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": 51991,
+                "questionId": null,
+                "reportOverviewId": 51991,
+                "reportOverviewTitle": "SERVICE",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Typographical error in narrative",
+                "description": "The word 'challlllllllllk' contains excessive repeated letters and should be corrected to 'chalk'."
+            }
