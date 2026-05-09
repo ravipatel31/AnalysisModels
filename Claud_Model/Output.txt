@@ -1,0 +1,25 @@
+ "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 51990,
+                "reportOverviewTitle": "VENUE OVERVIEW",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Duplicate content - paragraph repeated four times",
+                "description": "The VENUE OVERVIEW summary contains the same paragraph ('The venue had a great vibe when we arrived. The entrance was well-lit, there was good music playing, and it was not too loud.') repeated four times verbatim. This indicates a copy-paste error and should be reduced to a single instance, with additional unique detail added if available."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 51991,
+                "reportOverviewTitle": "SERVICE",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Grammar error - 'have been arriveding'",
+                "description": "The SERVICE summary opens with 'When we have been arriveding we were in a small line' which contains a grammatical error. This should be corrected to 'When we arrived, we were in a small line'."
+            },
