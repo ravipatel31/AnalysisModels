@@ -754,3 +754,37 @@ Retail output
         }
     ]
 }
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182712,
+            "questionId": 6334,
+            "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Low score contradicts positive response",
+            "description": "The response is mostly positive, indicating a clean and appealing store. However, the score of 2 out of 3 does not align with this positivity."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 182714,
+            "questionId": 1208,
+            "questionLabel": "As you walk into the store, do you find it inviting?",
+            "score": 2,
+            "maxScore": 2,
+            "issue": "Full score expected",
+            "description": "The response is 'Yes', which should result in a full score of 2 out of 2."
+        }
+    ]
+}
