@@ -848,3 +848,150 @@ Retail output
         }
     ]
 }
+
+
+
+
+
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182712,
+            "questionId": 6334,
+            "reportOverviewTitle": null,
+            "questionLabel": "Is A The is A the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Low score contradicts response",
+            "description": "The response states the store is 'Durty and not clean at all everything is very messy', which should result in a low score, but the score of 2 does not fully align with the negative sentiment."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 182714,
+            "questionId": 1208,
+            "reportOverviewTitle": null,
+            "questionLabel": "As you walk into the store, do you find it inviting?",
+            "score": 2,
+            "maxScore": 2,
+            "issue": "Contradiction in score and response",
+            "description": "The response 'Yes' should result in a max score of 2 if the question is phrased as a yes/no question. However, this contradicts the high score given."
+        },
+        {
+            "severity": "CRITICAL",
+            "reportDtlId": 182715,
+            "questionId": 6986,
+            "reportOverviewTitle": null,
+            "questionLabel": "Looking around the store aisles, do you find this store easily accessible? Is it free from boxes and clutter?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Low score contradicts response",
+            "description": "The response 'Yes' indicates easy accessibility but the score of 2 does not fully reflect a positive experience."
+        }
+    ]
+}
+
+secound try:
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182712,
+            "questionId": 6334,
+            "reportOverviewId": null,
+            "reportOverviewTitle": null,
+            "questionLabel": "Is A The is A the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Inconsistent scoring",
+            "description": "The response indicates the store is 'Durty and not clean at all everything is very messy', which should result in a lower score."
+        }
+    ]
+}
+
+tried time:
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182712,
+            "questionId": 6334,
+            "questionLabel": "Is A The is A the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Inconsistent scoring",
+            "description": "The response 'Durty and not clean at all everything is very messy' does not align with a score of 2 out of 3. The description indicates significant dirtiness, which should warrant a lower score."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182714,
+            "questionId": 1208,
+            "questionLabel": "As you walk into the store, do you find it inviting?",
+            "score": 2,
+            "maxScore": 2,
+            "issue": "Score and response align",
+            "description": "The response 'Yes' does not fully justify a score of 2 out of 2. The question suggests some level of uncertainty or mixed feelings."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182715,
+            "questionId": 6986,
+            "questionLabel": "Looking around the store aisles, do you find this store easily accessible? Is it free from boxes and clutter?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Inconsistent scoring",
+            "description": "The response 'Yes' does not fully justify a score of 2 out of 3. The question implies some level of accessibility that could warrant a higher score."
+        }
+    ]
+}
+
+last try:
+
+{
+    "success": true,
+    "model": "qwen2.5:7b",
+    "issues": [
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182712,
+            "questionId": 6334,
+            "reportOverviewTitle": null,
+            "questionLabel": "Is A The is A the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Inconsistent scoring",
+            "description": "The response indicates the store is dirty and messy, which should result in a score of 1 or 0. The provided score of 2 does not align with the negative response."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182714,
+            "questionId": 1208,
+            "reportOverviewTitle": null,
+            "questionLabel": "As you walk into the store, do you find it inviting?",
+            "score": 2,
+            "maxScore": 2,
+            "issue": "Inconsistent scoring",
+            "description": "The response is positive but the score is lower than the max score. A more consistent approach would be to either give a full score or adjust the comment."
+        },
+        {
+            "severity": "MODERATE",
+            "reportDtlId": 182715,
+            "questionId": 6986,
+            "reportOverviewTitle": null,
+            "questionLabel": "Looking around the store aisles, do you find this store easily accessible? Is it free from boxes and clutter?",
+            "score": 2,
+            "maxScore": 3,
+            "issue": "Inconsistent scoring",
+            "description": "The response is positive but the score is lower than the max score. A more consistent approach would be to either give a full score or adjust the comment."
+        }
+    ]
+}
