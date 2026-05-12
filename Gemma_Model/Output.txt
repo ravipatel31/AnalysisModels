@@ -953,3 +953,12 @@ Version : G112
         }
     ]
 }
+
+RETAIL
+
+Version : G201
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": []
+}
