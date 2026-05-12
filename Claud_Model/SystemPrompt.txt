@@ -20,3 +20,7 @@ change prompt to gchecking garbage value and copy paste
 
 
 change the prompt for give both question and summary
+
+
+
+checking score and comment alignment
