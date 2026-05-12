@@ -35,3 +35,6 @@ cheking Summary vs Question - Contradiction after chnaging the data
 FBG checking duplication error in Queation and Summary
 
 FBG checking garbage taxt in the summary 
+
+
+FBG checking garbage taxt in the Questiom
