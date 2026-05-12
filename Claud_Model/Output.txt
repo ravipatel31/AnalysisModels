@@ -424,3 +424,21 @@
                 "issue": "Response is inadequate for question type",
                 "description": "The question is a text (qType T) question asking for full details of events being promoted in the venue. The response is simply 'No', which provides no descriptive detail. The venue overview summary notes promotional material for current and upcoming promotions was visible throughout the venue, making a bare 'No' response factually inconsistent with the shopper's own reported experience."
             },
+
+
+
+
+
+
+{
+                "severity": "MODERATE",
+                "reportDtlId": 792055,
+                "questionId": 28915,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were the staff members talking among themselves, looking to be more social than professional?  If SO were they ignoring customers or did they stop talking to serve customers?",
+                "score": 0,
+                "maxScore": 100,
+                "issue": "Comment contradicts score",
+                "description": "The score is 0, indicating a negative outcome (staff talking among themselves unprofessionally). However, the comment states 'it is very good staff and venue,' which is a positive statement that directly contradicts the negative score. Since commentAllowed is true, the comment must align with the score."
+            },
