@@ -106,3 +106,42 @@
         ]
     }
 }
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 795736,
+                "questionId": 20845,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "If asked, were the benefits of the Loyalty Program explained?",
+                "score": 75,
+                "maxScore": 100,
+                "issue": "Score inconsistency given conditional question context",
+                "description": "Question 795735 (reportDtlId) confirms the shopper was NOT invited to join the Loyalty Program. The question 'If asked, were the benefits of the Loyalty Program explained?' is conditionally framed — it presupposes the shopper was asked to join. Since the shopper was not invited to join (score 0 on that question), this conditional question should logically yield a non-applicable or zero score rather than 75. A score of 75 implies a partial explanation of benefits was given in the context of an invitation that did not occur. However, the response 'Yes, but only briefly mentioned the benefits' refers to the loyalty member inquiry (not an invitation), and the comment on question 795734 confirms only a brief mention of savings was made without any depth. The score of 75 for a benefits explanation that was never formally offered in the context of an invitation creates a logical inconsistency between this question's premise and the scored outcome."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": 795742,
+                "questionId": 20238,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Was there anything else that stood out, positive or negative, during your visit?",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Text question scored numerically without clear scoring basis",
+                "description": "This question is qType 'T' (text), yet it has been assigned a score of 100 out of 100. Text questions are typically used for open-ended narrative responses and do not conventionally carry a scored value. While the response is positive and relevant, assigning a score of 100 to a free-text question raises a process concern as there is no defined scoring rubric evident for this question type."
+            }
+        ]
+    }
+}
+
+
+
