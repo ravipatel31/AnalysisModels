@@ -44,3 +44,6 @@ FBG cheking Score and value alignment
 
 
 FBG cheking Score and value alignment in other data 
+
+
+FBG checking Question vs summary contradiction 
