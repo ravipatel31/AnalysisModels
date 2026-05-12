@@ -10,3 +10,6 @@ Checking grammer and syntaxt after changing summary in that i change syntax.
 
 
 checking summary for syntax error 
+
+
+checking summary for syntax error after changing the data 
