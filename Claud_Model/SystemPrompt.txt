@@ -30,3 +30,7 @@ checking the Summary vs Question - Contradiction
 
 
 cheking Summary vs Question - Contradiction after chnaging the data 
+
+
+FBG checking duplication error in Queation and Summary
+
