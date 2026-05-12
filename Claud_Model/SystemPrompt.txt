@@ -27,3 +27,6 @@ checking score and comment alignment
 
 
 checking the Summary vs Question - Contradiction
+
+
+cheking Summary vs Question - Contradiction after chnaging the data 
