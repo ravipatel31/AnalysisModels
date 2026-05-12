@@ -227,3 +227,51 @@
                 "issue": "Response contains apparent keyboard/input noise",
                 "description": "The response text ends with a string of random characters ('rdxctrfvygbhjnhcfttywhsdxjts hjshvxitufdsvxywqta') that appear to be accidental keyboard input and do not form any meaningful content. This should be removed to maintain report integrity and professionalism."
             },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 795736,
+                "questionId": 20845,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "If asked, were the benefits of the Loyalty Program explained?",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Score contradicts response comment on adjacent question",
+                "description": "The comment on question 29549 (reportDtlId 795734) explicitly states that TM1 'did not explain anything in depth about the loyalty program,' and the overview summary confirms TM1 'did not ask if I wanted to join' and only briefly mentioned some items would be cheaper. Question 20845 asks whether the benefits of the Loyalty Program were explained, and the selected response states 'Yes, they clearly explained value and benefits' with a score of 100. These two questions describe the same event and the explicit statement that no in-depth explanation was given directly contradicts the response of 'clearly explained value and benefits' and the score of 100. This is an explicit cross-question contradiction on the same described event."
+            },
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 795742,
+                "questionId": 27075,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Was there anything else that stood out, positive or negative, during your visit?",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Response text is entirely inconsistent with the overall report and appears to be erroneous or placeholder content",
+                "description": "The response states 'every this is negetive there i do not get a vibe there. I feel unsafe there,' which describes a strongly negative experience. This is a text (qType T) question where the shopper authored the response. The response explicitly describes a negative experience, yet the score is 100 out of 100. A response describing a negative experience paired with a maximum score is an explicit contradiction. Additionally, the response content is entirely inconsistent with all other reported observations throughout the visit."
+            }
+        ]
+    }
+}
