@@ -64,6 +64,32 @@ app.get("/transactions", (req, res) => {
   return res.status(200).json(MOCK_TRANSACTIONS)
 });
 
+app.post("/create-transactions", (req, res) => {
+  const transactions = req.body;
+
+  // Validate that request body is an array
+  if (!Array.isArray(transactions)) {
+    return res.status(400).json({
+      success: false,
+      message: "Request body must be an array of transactions",
+    });
+  }
+
+  // Clear existing transactions
+  MOCK_TRANSACTIONS.length = 0;
+
+  // Replace with new transactions
+  MOCK_TRANSACTIONS.push(...transactions);
+
+  // Return updated array
+  return res.status(200).json({
+    success: true,
+    message: "Transactions replaced successfully",
+    data: MOCK_TRANSACTIONS,
+    count: MOCK_TRANSACTIONS.length,
+  });
+});
+
 
 
 const server = app.listen(5000, () => {
