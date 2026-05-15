@@ -1098,3 +1098,33 @@ Version : G207
         }
     ]
 }
+
+Version : G208
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": 795722,
+            "questionId": 20165,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "How did the exterior of the store appear when you arrived? Consider lighting, windows, and signage.",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Report Overview summary contains repetitive wording. Specifically, \"Spotless and well-maintained\" is used multiple times in a row. This can be improved by using synonyms or diversifying the language used."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": 795723,
+            "questionId": 30463,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "What was the condition of the front counter area?",
+            "score": 100,
+            "maxScore": 100,
+            "issue": "Report Overview summary contains repetitive wording. Specifically, \"Spotless and well-maintained\" is used multiple times in a row. This can be improved by using synonyms or diversifying the language used."
+        }
+    ]
+}
