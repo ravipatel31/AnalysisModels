@@ -60,3 +60,5 @@ Gaming checking Grammatical error in summery
 
 
 Gamimg checking Garbage value
+
+Gaming checking garbage value in question and summery at a time
