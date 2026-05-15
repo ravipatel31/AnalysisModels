@@ -477,3 +477,34 @@
                 "issue": "Incomplete response text",
                 "description": "The response contains an incomplete sentence: 'He did answer my questions when asked and did offer me .' The sentence trails off without completing the thought, indicating missing content. This makes the response factually incomplete and unverifiable as written."
             },
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [],
+        "error": "Invalid JSON response from AI",
+        "raw": "{\n  \"issues\": [\n    {\n      \"severity\": \"MODERATE\",\n      \"reportDtlId\": 794069,\n      \"questionId\": 13805,\n      \"reportOverviewId\": null,\n      \"reportOverviewTitle\": null,\n      \"questionLabel\": \"Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.\",\n      \"score\": 50,\n      \"maxScore\": 100,\n      \"issue\": \"Score inconsistency between response and comment\",\n      \"description\": \"The response states 'I was not greeted upon entry into the gaming room, however i was offered a drink within 5 minutes at my machine,' and the comment confirms GAM1 approached within 5 minutes to offer a drink. The question asks whether the shopper was welcomed on arrival AND offered assistance within 5 minutes. The response explicitly states no greeting was given on arrival, which partially supports a reduced score. However, the comment field (which is allowed for this question) confirms assistance was offered within 5 minutes. The score of 50 is logically consistent with a partial fulfillment — no welcome greeting but assistance offered within 5 minutes — and does not constitute a contradiction. No issue to raise.\"\n    }\n  ]\n}\n\n\nWait, I need to re-evaluate. The instructions say to only raise issues if there is an explicit contradiction, and I concluded there is no contradiction for question 794069. Let me re-review all questions properly and return a clean result.\n\n\n{\n  \"issues\": []\n}"
+    }
+}
+
+
+
+ {
+                "severity": "MODERATE",
+                "reportDtlId": 794069,
+                "questionId": 13805,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+                "score": 50,
+                "maxScore": 100,
+                "issue": "Response and comment conflict on whether a greeting occurred",
+                "description": "The response states 'I was not greeted upon entry into the gaming room, however i was offered a drink within 5 minutes at my machine.' The comment field states 'GAM1 approached me within 5 minutes of arriving in the gaming room to ask if I would like a drink.' The comment does not contradict the score, but the response explicitly states no greeting was received on entry, which aligns with the 50 score. However, the Gaming overview summary states 'I was warmly greeted by GAM1 within five minutes of arriving in the gaming room,' which directly contradicts the response text that states 'I was not greeted upon entry.' While summary sections are not used to validate scores, the response itself contains an internal tension: being 'offered a drink' may or may not constitute a greeting depending on interpretation. The score of 50 is consistent with a partial fulfillment (drink offered but no formal welcome/greeting), and the response supports this. No score contradiction exists; however, the comment field adds context that aligns with the score. No flag required on score. Flagging only to note the internal response wording ('not greeted') conflicts with the overview summary ('warmly greeted') for editorial awareness."
+            }
