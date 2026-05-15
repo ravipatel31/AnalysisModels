@@ -508,3 +508,39 @@
                 "issue": "Response and comment conflict on whether a greeting occurred",
                 "description": "The response states 'I was not greeted upon entry into the gaming room, however i was offered a drink within 5 minutes at my machine.' The comment field states 'GAM1 approached me within 5 minutes of arriving in the gaming room to ask if I would like a drink.' The comment does not contradict the score, but the response explicitly states no greeting was received on entry, which aligns with the 50 score. However, the Gaming overview summary states 'I was warmly greeted by GAM1 within five minutes of arriving in the gaming room,' which directly contradicts the response text that states 'I was not greeted upon entry.' While summary sections are not used to validate scores, the response itself contains an internal tension: being 'offered a drink' may or may not constitute a greeting depending on interpretation. The score of 50 is consistent with a partial fulfillment (drink offered but no formal welcome/greeting), and the response supports this. No score contradiction exists; however, the comment field adds context that aligns with the score. No flag required on score. Flagging only to note the internal response wording ('not greeted') conflicts with the overview summary ('warmly greeted') for editorial awareness."
             }
+
+
+
+
+
+
+
+
+
+
+
+ "issues": [
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 794069,
+                "questionId": 13805,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+                "score": 50,
+                "maxScore": 100,
+                "issue": "Score inconsistency with Gaming summary and other question responses",
+                "description": "The response states 'I was not greeted upon entry into the gaming room, however i was offered a drink within 5 minutes at my machine,' which supports a partial score of 50. However, the Gaming overview summary and multiple other questions (e.g., reportDtlId 794073, 794074) consistently describe GAM1 as warmly greeting the shopper within five minutes of arriving. The response text here explicitly states no greeting occurred on entry, which is a direct factual inconsistency with the narrative summary stating 'I was warmly greeted by GAM1 within five minutes of arriving in the gaming room.' This internal contradiction within the report warrants review to clarify whether a verbal greeting occurred or only a drink offer was made."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 53532,
+                "reportOverviewTitle": "SECURITY",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Grammatical error in Security summary",
+                "description": "The Security summary reads 'There do no security during my visit.' This contains a grammatical error and should be corrected to 'There was no security during my visit.' to ensure professional and clear reporting."
+            }
