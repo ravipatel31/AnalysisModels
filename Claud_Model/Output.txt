@@ -544,3 +544,43 @@
                 "issue": "Grammatical error in Security summary",
                 "description": "The Security summary reads 'There do no security during my visit.' This contains a grammatical error and should be corrected to 'There was no security during my visit.' to ensure professional and clear reporting."
             }
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 794069,
+                "questionId": 13805,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+                "score": 50,
+                "maxScore": 100,
+                "issue": "Response contradicts score and summary narrative",
+                "description": "The response states 'I was not greeted upon entry into the gaming room, however i was offered a drink within 5 minutes at my machine', which supports a partial score of 50. However, the comment field states 'GAM1 approached me within 5 minutes of arriving in the gaming room to ask if I would like a drink', which is consistent with the response. The score of 50 is logically aligned with the response describing a partial fulfilment (no greeting on entry, but drink offer within 5 minutes). No contradiction exists between response and score. This flag is withdrawn — no issue."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 53532,
+                "reportOverviewTitle": "SECURITY",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Nonsensical text present in Security overview summary",
+                "description": "The Security section contains the string 'hbcdiubckjabduji' following the factual statement about no security being present. This appears to be random keystrokes or placeholder text that was not removed before submission. It should be deleted as it is not meaningful content."
+            }
+        ]
+    }
+}
