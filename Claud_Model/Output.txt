@@ -759,3 +759,34 @@
         ]
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 794069,
+                "questionId": 13805,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+                "score": 50,
+                "maxScore": 100,
+                "issue": "Conflicting greeting timeframe between question response and comment",
+                "description": "The response states the shopper was offered a drink 'within 5 minutes at my machine', while the comment states 'GAM1 approached me within 5 minutes of arriving in the gaming room to ask if I would like a drink.' However, the response also explicitly states 'I was not greeted upon entry into the gaming room', which supports a partial score. The comment and response are internally consistent with the 50 score given the lack of a formal greeting on arrival. No contradiction requiring flagging exists beyond noting the response and comment are aligned with the partial score."
+            }
+        ]
+    }
+}
