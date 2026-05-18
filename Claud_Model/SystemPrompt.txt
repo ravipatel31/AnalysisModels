@@ -71,3 +71,6 @@ Gaming checking alignment of score
 
 
 Gaming Checking Summary vs Question - Contradiction
+
+
+Gaming Checking with changing in other question
