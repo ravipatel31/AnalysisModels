@@ -64,3 +64,7 @@ Gamimg checking Garbage value
 Gaming checking garbage value in question and summery at a time
 
 Gaming checking alignment of comment and score
+
+
+
+Gaming checking alignment of score 
