@@ -720,3 +720,42 @@
         ]
     }
 }
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 794066,
+                "questionId": 974,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Are the staff well presented and in correct uniform, red or black shirt in the gaming room, black pants?",
+                "score": 100,
+                "maxScore": 100,
+                "issue": "Score contradicts response text",
+                "description": "The response states 'GAM1 was not well presented in uniform, wearing a pink shirt and black pants,' explicitly indicating the staff member was NOT in the correct uniform (red or black shirt required). This is a negative finding that directly contradicts the maximum score of 100."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 794069,
+                "questionId": 13805,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+                "score": 50,
+                "maxScore": 100,
+                "issue": "Response and comment describe being offered assistance within 5 minutes, partially supporting a higher score, but the response also states no greeting on entry",
+                "description": "The response states 'I was not greeted upon entry into the gaming room, however I was offered a drink within 5 minutes at my machine.' The comment confirms GAM1 approached within 5 minutes to offer a drink. The question asks about being welcomed on arrival AND offered assistance within 5 minutes. The shopper was offered assistance within 5 minutes but was not welcomed/greeted on arrival. A score of 50 is consistent with partial fulfilment of the question criteria. No contradiction exists; this is flagged only as a note that the score aligns with the partial positive response."
+            }
+        ]
+    }
+}
