@@ -961,3 +961,79 @@
         ]
     }
 }
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 196184,
+                "questionId": 29523,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store? <br>  a.   Yes, Name/describe the team member who asked. Please comment. <br>  b.  No, Were you advised of the benefits of the My Health Rewards program, and invited to sign up? Name/describe the team member. Please comment.",
+                "score": "3",
+                "maxScore": "3",
+                "issue": "Score contradicts comment content",
+                "description": "The selected response is 'Yes I was offered and told of benefits' which supports a full score of 3. However, the comment explicitly states 'I was asked by TM2 Natasha if I was a member, I said no. That was all.' This indicates the shopper was only asked if they were a member and nothing further occurred — no benefits were described and no invitation to sign up was extended. The comment directly contradicts the selected response and the full score awarded."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196193,
+                "questionId": 18380,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member ask appropriate questions to understand what you were looking for today?",
+                "score": "0",
+                "maxScore": "2",
+                "issue": "Comment partially contradicts score",
+                "description": "The selected response is 'No' and the score is 0, suggesting the team member did not ask appropriate questions. However, the comment states 'I explained who I wanted it for and why and she explained the difference and why one was better,' which describes a productive exchange where the team member provided relevant advice. While the shopper volunteered the information rather than being asked, the comment describes a positive advisory interaction that is inconsistent with a zero score and a 'No' response."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": 196196,
+                "questionId": 18539,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member offer services or advice that could be of help to your original enquiry?",
+                "score": "0",
+                "maxScore": "2",
+                "issue": "Comment conflicts with score and response",
+                "description": "The selected response is 'No I was not offered advice or services' and the score is 0. However, the comment states only 'TM2 did not ask me any questions.' This is inconsistent with other responses in the same report (e.g., reportDtlId 196195 scores 2/2 for giving product information and advice, and reportDtlId 196194 scores 2/2 for feeling listened to). While cross-question comparison is restricted, within this question the comment ('did not ask questions') does not directly confirm that no advice was given, creating ambiguity between the comment and the zero score for advice offered."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": 8340,
+                "questionId": null,
+                "reportOverviewId": 8340,
+                "reportOverviewTitle": "Interior",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Editorial: Nonsensical characters and typographical errors in summary",
+                "description": "The Interior summary contains the phrase 'The steore were neat' (should be 'The store was neat') and ends with the nonsensical string 'gfvsfdvf' which appears to be accidental keyboard input. These should be corrected before submission."
+            },
+            {
+                "severity": "LOW",
+                "reportDtlId": 8341,
+                "questionId": null,
+                "reportOverviewId": 8341,
+                "reportOverviewTitle": "Exterior",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Editorial: Nonsensical characters at end of summary",
+                "description": "The Exterior summary ends with the nonsensical string 'fvfdvf' which appears to be accidental keyboard input and should be removed before submission."
+            }
+        ]
+    }
+}
