@@ -790,3 +790,53 @@
         ]
     }
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 794069,
+                "questionId": 13805,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you welcomed on arrival and were you offered assistance within the first 5 minutes? Describe who welcomed/assisted you.",
+                "score": 50,
+                "maxScore": 100,
+                "issue": "Greeting timeline inconsistency between response and comment",
+                "description": "The response states the shopper was offered a drink 'within 5 minutes at my machine', while the comment states 'GAM1 approached me within 5 minutes of arriving in the gaming room to ask if I would like a drink.' Both indicate the drink offer occurred within 5 minutes, yet the response also states 'I was not greeted upon entry into the gaming room.' The score of 50 is consistent with not being formally welcomed/greeted on arrival. No contradiction exists between the score and the response; the partial score is supported by the lack of a formal greeting. No flag required on score logic. However, the GAMING overview summary states 'I was warmly greeted by GAM1 within 15 minutes of arriving in the gaming room,' which conflicts with the question response stating the drink was offered within 5 minutes. Note: per rules, summary sections must not be used to validate scores, so this is flagged only as an editorial narrative inconsistency in the overview summary."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 53530,
+                "reportOverviewTitle": "EXTERIOR, ENTRY AND VENUE OVERVIEW",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Greeting timeframe inconsistency within overview summaries",
+                "description": "The EXTERIOR, ENTRY AND VENUE OVERVIEW summary states 'I was warmly greeted by GAM1 within five minutes of arriving in the gaming room,' while the GAMING summary states 'I was warmly greeted by GAM1 within 15 minutes of arriving in the gaming room.' These two summary sections explicitly contradict each other on the timeframe of the greeting. One should be corrected to ensure consistency."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": null,
+                "questionId": null,
+                "reportOverviewId": 53533,
+                "reportOverviewTitle": "GAMING",
+                "questionLabel": null,
+                "score": null,
+                "maxScore": null,
+                "issue": "Greeting timeframe inconsistency with EXTERIOR summary and greeting description inconsistency",
+                "description": "The GAMING summary states 'I was warmly greeted by GAM1 within 15 minutes of arriving in the gaming room,' which contradicts the EXTERIOR, ENTRY AND VENUE OVERVIEW summary that states 'within five minutes.' Additionally, the GAMING summary states 'The gaming room was not clean, tidy, and not well-maintained when I arrived. The floors and surfaces were not clean, with no visible rubbish.' The phrase 'not clean' combined with 'no visible rubbish' is internally ambiguous and potentially contradictory — if there is no visible rubbish, the basis for stating the room was not clean and not well-maintained is unclear and should be clarified editorially."
+            }
+        ]
+    }
+}
