@@ -1099,3 +1099,65 @@
         ]
     }
 }
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 196170,
+                "questionId": 21904,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+                "score": 3,
+                "maxScore": 3,
+                "issue": "Comment directly contradicts selected response and score",
+                "description": "The selected response is 'Clean and Clear' and the score is 3/3 (maximum), indicating a positive assessment. However, the comment states 'Very dirty and messy and less stocked, with wide aisles so people can pass easily.' The comment explicitly describes a negative experience (dirty, messy, less stocked) which directly contradicts the positive response value and maximum score awarded."
+            },
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 196184,
+                "questionId": 29523,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Were you asked if you are a My Health Rewards loyalty customer whilst in the store? <br>  a.   Yes, Name/describe the team member who asked. Please comment. <br>  b.  No, Were you advised of the benefits of the My Health Rewards program, and invited to sign up? Name/describe the team member. Please comment.",
+                "score": 3,
+                "maxScore": 3,
+                "issue": "Selected response and score contradict the comment",
+                "description": "The selected response is 'Yes I was offered and told of benefits' and the score is 3/3 (maximum), indicating the shopper was asked about membership and informed of benefits. However, the comment states 'I was asked by TM2 Natasha if I was a member, I said no. That was all.' This explicitly indicates the shopper was NOT told of the benefits and was NOT invited to sign up — only asked if they were a member. The comment directly contradicts the selected response and the maximum score awarded."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196193,
+                "questionId": 18380,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member ask appropriate questions to understand what you were looking for today?",
+                "score": 0,
+                "maxScore": 2,
+                "issue": "Comment partially contradicts the score of zero",
+                "description": "The selected response is 'No' and the score is 0/2. However, the comment states 'I explained who I wanted it for and why and she explained the difference and why one was better.' This describes the team member engaging with the shopper's explanation and providing relevant product advice, which suggests some level of appropriate interaction occurred. The comment does not clearly support a score of zero, as it describes a meaningful exchange rather than a complete failure to engage."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196196,
+                "questionId": 18539,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member offer services or advice that could be of help to your original enquiry?",
+                "score": 0,
+                "maxScore": 2,
+                "issue": "Comment contradicts the score of zero",
+                "description": "The selected response is 'No I was not offered advice or services' and the score is 0/2. However, the comment states 'TM2 did not ask me any questions.' This is inconsistent with the narrative in question 196193 and the report summary, which describe TM2 explaining the difference between products and recommending one. Furthermore, question 196195 (questionId 18486) was scored 2/2 with response 'Yes' for giving product information and advice. A score of zero here alongside a confirmed 'Yes' on product advice in the adjacent question creates a direct logical tension within the same interaction."
+            }
+        ]
+    }
+}
