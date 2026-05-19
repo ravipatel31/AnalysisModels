@@ -1182,3 +1182,48 @@
                 "issue": "Comment contains internally contradictory statements",
                 "description": "The selected response is 'No I was not offered advice or services' and the score is 0, which is consistent. However, the comment states 'TM2 did not offer advice or services' and then immediately states 'TM1 offered me the service and greeted me.' This second statement directly contradicts both the narrative in the Service & Recommendations summary (which states TM1 did not approach or greet the shopper) and the response to question 196187 (where TM1 is described as not greeting the shopper). The comment contains a factual error that is internally contradictory and inconsistent with the shopper's own reported experience."
             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "data": {
+        "issues": [
+            {
+                "severity": "CRITICAL",
+                "reportDtlId": 196170,
+                "questionId": 21904,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Is the front appearance of the store appealing? Is it clean and well-lit with easy and safe access? Is it inviting? Does it have fully-stocked bins or displays that have clearly visible price tickets?",
+                "score": 0,
+                "maxScore": 3,
+                "issue": "Response contradicts selected answer and score",
+                "description": "The selected response value is 'Dust' and the comment states 'Very dirty and messy and less stocked', resulting in a score of 0. However, the reportOverviewSummary for 'Exterior' explicitly states the exterior and entrance were 'very clean, no signs of rubbish or dust/dirt' and 'Signage looked in good condition.' Additionally, the 'Interior' summary describes the store as 'neat and tidy and clean inside' and 'well stocked.' The comment directly contradicts the shopper's own narrative descriptions of the store condition. The comment text appears inconsistent with the experience described elsewhere in the report, suggesting the comment may have been entered in error or applied to the wrong question."
+            },
+            {
+                "severity": "MODERATE",
+                "reportDtlId": 196196,
+                "questionId": 18539,
+                "reportOverviewId": null,
+                "reportOverviewTitle": null,
+                "questionLabel": "Did the team member offer services or advice that could be of help to your original enquiry?",
+                "score": 0,
+                "maxScore": 2,
+                "issue": "Comment contains internally contradictory statements",
+                "description": "The selected response is 'No I was not offered advice or services' and the score is 0, which is consistent. However, the comment states 'TM2 did not offer advice or services' and then immediately states 'TM1 offered me the service and greeted me.' This second statement directly contradicts both the narrative in the Service & Recommendations summary (which states TM1 did not approach or greet the shopper) and the response to question 196187 (where TM1 is described as not greeting the shopper). The comment contains a factual error that is internally contradictory and inconsistent with the shopper's own reported experience."
+            }
+        ]
+    }
+}
