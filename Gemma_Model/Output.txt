@@ -1180,3 +1180,36 @@ Version : G210
         }
     ]
 }
+
+Version : G211
+
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": null,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Summary repetition: 'The fruit and vegetable section looked very fresh with highly stocked product displays that were very visually pleasing.' and 'I had wandered around for a couple of minutes or so, and was happily acknowledged by a smiling and polite TM1...'. This sentence is repeated in multiple summaries. ",
+            "description": "This issue relates to the summary's use of repetitive language. Ensure distinct descriptions of each aspect of the visit."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": null,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": null,
+            "score": null,
+            "maxScore": null,
+            "issue": "Summary lacks detail on store environment: 'The exterior appeared clean, safe, and inviting with prominent signage, smudge-free windows, and unobstructed access despite nearby construction work.' The summary should provide details about the store's ambiance. ",
+            "description": "Ensure the summary provides specific information about the store's environment beyond general impressions."
+        }
+    ]
+}
