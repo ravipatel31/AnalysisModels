@@ -1148,3 +1148,35 @@ Version : G209
         }
     ]
 }
+
+Version : G210
+{
+    "success": true,
+    "model": "gemma2:2b",
+    "issues": [
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 20646,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Shoppers overview of visit",
+            "questionLabel": "How would you rate the merchandising of displays and promotions throughout the store?",
+            "score": 50,
+            "maxScore": 100,
+            "issue": "Generic response with generic language. Needs more specific details about product placement, shelf organization, signage, etc. Use concrete examples to support rating.",
+            "description": "The response is vague and lacks detail regarding the actual merchandising aspects of the store. Mentioning specific products or types of displays would enhance the analysis."
+        },
+        {
+            "severity": "LOW",
+            "reportDtlId": null,
+            "questionId": 30463,
+            "reportOverviewId": 53815,
+            "reportOverviewTitle": "Retails",
+            "questionLabel": "What was the condition of the front counter area?",
+            "score": 25,
+            "maxScore": 100,
+            "issue": "Generic response with vague descriptions. Provide more details about the front counter condition - cleanliness, organization, and visual appeal.",
+            "description": "The response fails to mention specific observations regarding the front counter area's condition. Focusing on aspects like table/counter cleanliness, orderliness of displays, or presence of clutter would improve the response."
+        }
+    ]
+}
